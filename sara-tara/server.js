@@ -32,7 +32,6 @@ app.post('/articles', (request, response) => {
   response.status(201).json(request.body);
 });
 
-
 // 404 handler
 app.use((request, response) =>{
   console.log('Page not found');
