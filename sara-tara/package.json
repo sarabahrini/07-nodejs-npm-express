@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-npm-lab07",
+  "version": "1.0.0",
+  "description": "NodeJS project for 301d35 on June 13, 2018",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarabahrini/07-nodejs-npm-express.git"
+  },
+  "keywords": [
+    "node",
+    "server",
+    "npm"
+  ],
+  "author": "Sara-Tara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarabahrini/07-nodejs-npm-express/issues"
+  },
+  "homepage": "https://github.com/sarabahrini/07-nodejs-npm-express#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "npm": "^6.1.0"
+  }
+}
