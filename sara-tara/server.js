@@ -1,6 +1,6 @@
 'use strict';
 
-//TODO: Finish out the server code according to the instructions in the lab README
+//DONE: Finish out the server code according to the instructions in the lab README
 
 // Load the express dependency - We are telling it to use express 
 const express = require('express');
@@ -13,7 +13,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 //Tell Express where to serve the files from - We are telling Express which source to use 
-//Comment about why our files are in public directory and how ExpressJS serves our local files? Express looks up the files relative to the static directory (in our case it's public) so the name of that directory wont be part of the URL. We are using Express built in middleware static function to do that. 
+//DONE: COMMENT: about why our files are in public directory and how ExpressJS serves our local files? Express looks up the files relative to the static directory (in our case it's public) so the name of that directory wont be part of the URL. We are using Express built in middleware static function to do that. 
 app.use(express.static('./public'))
 
 
